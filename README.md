@@ -9,10 +9,10 @@ Only works if your selected driver supports enhancements for speakers, but didn'
 
 If you are looking for bass boost, you can use the more complex version of this script https://github.com/Falcosc/enable-bass-boost
 
-# How to Download and Run
+# How to Download and Run (modified to use the fork instead)
 run in powershell
 ```
-Invoke-WebRequest https://raw.githubusercontent.com/Falcosc/enable-loudness-equalisation/main/EnableLoudness.ps1 -OutFile $env:HOMEPATH\EnableLoudness.ps1
+Invoke-WebRequest https://raw.githubusercontent.com/steveseguin/enable-loudness-equalisation/main/EnableLoudness.ps1 -OutFile $env:HOMEPATH\EnableLoudness.ps1
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 . $env:HOMEPATH\EnableLoudness.ps1
 ```
